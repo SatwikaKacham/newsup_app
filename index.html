@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsUp</title>
+   
+    <link rel="stylesheet" href="https://codesup-component-library.netlify.app/all_components_css.css">  
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <nav class="nav-container">
+        <div class="nav-logo-and-title">
+            <img class="nav-logo" src="/images/NEWSUP.png" alt="">
+            <div class="nav-title"> NewsUp</div>
+        </div>
+
+        <div class="nav-navigators">
+             <a class="nav-navigator-item" id="home" href="#">Home</a>
+             <a class="nav-navigator-item" id="Ipl" href="#">Ipl</a>
+             <a class="nav-navigator-item" id="Finance" href="#">Finance</a>
+             <a class="nav-navigator-item" id="Politics" href="#">Politics</a>
+
+        </div>
+
+        <div class="nav-search">
+              <span class="material-icons-outlined">
+                  search
+              </span>
+        <input id="search-news" type="text" placeholder="Search for news....">
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="all-cards" id="all-cards">
+
+        </div>
+
+     <template id="template-news-card">
+       
+          <div class="card-container">
+            <div class="card-image-and-header">
+                <img class="card-image" id="card-image" src="https://via.placeholder.com/400x200">
+                <header class="card-content">
+                    <div class="card-head"  id="card-head"><b>Levis</b></div>
+                    <h6 class="card-source" id="card-source">End Gadget 30/10/2023 </h6>
+                    <p class="card-discription" id="card-discription"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis </p>  
+                </header>
+            </div>
+          </div>  
+        
+     </template>
+    </main>
+
+     <script src="/script.js"></script>
+
+
+</body>
+</html>
